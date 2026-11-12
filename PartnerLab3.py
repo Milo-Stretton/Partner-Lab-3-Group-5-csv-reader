@@ -1,3 +1,7 @@
+"""Author: Milo Stretton
+  Content: imports the csv class for using csv relevent class methods and then reads through the country_full.csv file.
+  The program goes through each row, and prints out the individual country and also the region that it is a part of, the two items
+  that are required to be written into the other seperating files."""
 import csv
 from pathlib import Path
 with open(Path(__file__).with_name("country_full.csv"), 'r') as f:
